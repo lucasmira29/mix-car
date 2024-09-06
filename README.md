@@ -11,3 +11,7 @@ Criar uma página simples e responsiva para a empresa fictícia **Mix Car**.
 
 ### Tecnologias
 - HTML, CSS, JavaScript.
+
+### Visualização
+
+Você pode visualizar o projeto em funcionamento [aqui](https://mix-car.vercel.app/).
