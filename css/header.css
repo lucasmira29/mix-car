@@ -1,0 +1,140 @@
+.header {
+    width: 100%;
+    background-color: #1C1C1C;
+    padding: 35px 0;
+}
+
+.header-container {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.off-screen-menu {
+    background-color: var(--preto);
+    height: 100%;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+
+.off-screen-menu li {
+    font-size: 2rem;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+.off-screen-menu li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+.off-screen-menu li:hover {
+    border-bottom: 3px solid var(--verde);
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+.ham-menu {
+    display: none;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: var(--roxo);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3 ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+    top: 43%;
+    transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.list-menu {
+    display: flex;
+    gap: 2em;
+    font-weight: 300;
+}
+
+.list-item {
+    position: relative;
+}
+
+.list-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.list-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--verde);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.hidden {
+    display: none;
+}

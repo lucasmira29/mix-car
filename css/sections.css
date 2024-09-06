@@ -1,0 +1,97 @@
+@import url(/css/global.css);
+
+.section-one {
+    width: 100%;
+    padding: 5em 0;
+    background: linear-gradient(to right, #000000, #434343);
+    min-height: 100%;
+}
+
+.section-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.catalog-title {
+    color: var(--roxo);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cars-icons {
+    display: flex;
+    gap: 1em;
+}
+
+
+.catalog-text {
+    display: inline-block;
+    max-width: 800px;
+    text-align: center;
+    line-height: normal;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.section-two {
+    width: 100%;
+    background: linear-gradient(to right, #434343, #000000);
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+
+.section-two-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-title {
+    padding: 2em 0;
+    font-size: 3rem;
+    color: var(--roxo);
+    text-align: center;
+    font-weight: 700;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+}
+
+.map > span {
+    padding-top: 16px;
+    font-weight: 300;
+    color: #C1C1C1;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.location-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 0 100px;
+}
+
+.location-text {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location-text h4 {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.location-text li {
+    margin-bottom: 10px;
+}
+

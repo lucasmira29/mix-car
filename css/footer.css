@@ -1,0 +1,57 @@
+@import url(/css/footer.css);
+
+.footer {
+    min-height: 100%;
+    width: 100%;
+    padding: 64px 0;
+    background-color: var(--preto);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.logo-div a {
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.logo-div a:hover {
+    text-decoration: underline;
+}
+
+.contact-div {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.contact-div p {
+    display: inline-flex;
+    gap: 20px;
+    width: 245px;
+    align-items: center;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    padding: 10px 0 16px 0;
+    max-width: 350px;
+    font-size: 0.9rem;
+    line-height: normal;
+    color: #C1C1C1;
+}

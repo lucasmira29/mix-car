@@ -1,0 +1,149 @@
+@media (max-width: 992px) {
+    .header-container {
+        position: relative;
+    }
+
+    .social-menu {
+        position: absolute;
+        bottom: 85%;
+        left: 80%;
+    }
+
+    .nav-menu a {
+        font-size: 1.1rem;
+    }
+
+    .footer-container {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+
+    .contact-div p {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .about-text {
+        padding-bottom: 32px;
+    }
+
+    .links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 828px) {
+
+    .header-container {
+        padding: 0 3em;
+    }
+
+
+    .nav-menu {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+
+    .location-div {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .off-screen-menu {
+        max-width: 100%;
+        right: -100%;
+    }
+
+
+    .headline {
+        font-size: 4rem;
+    }
+
+    .intro-text {
+        margin: 0 30px;
+    }
+
+    .catalog-title,
+    .catalog-text {
+        padding: 0 32px;
+    }
+
+    .location-text p {
+        text-align: center;
+        max-width: 90%;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .social-menu .links {
+        gap: 10px;
+    }
+
+    .social-menu .links img {
+        width: 25px;
+    }
+
+
+    .logo img {
+        width: 185px;
+    }
+
+    .header-container {
+        padding: 0 24px;
+    }
+
+    .headline {
+        font-size: 3.5rem;
+    }
+
+    .catalog-title {
+        font-size: 1.7rem;
+        padding: 0;
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 462px) {
+
+    .social-menu {
+        left: 75%;
+    }
+    
+    
+    .headline {
+        font-size: 3rem;
+        margin: 0 16px;
+    }
+
+    .intro-text {
+        font-size: 1.2rem;
+    }
+
+    .map iframe {
+        max-width: 300px;
+    }
+
+    .about-div h5 {
+        padding-left: 10px;
+    }
+
+    .about-text {
+        padding: 12px 12px 32px 12px;
+        font-size: 0.8rem;
+        max-width: 340px;
+    }
+}
+
